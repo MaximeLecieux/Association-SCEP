@@ -2,23 +2,3 @@ body{
     margin: 0;
     background: #f7f7f3;
 }
-
-.logo-header{
-    display: none;
-}
-
-.btn-scep{
-    /*background: #E84644;*/
-    color: red;
-    text-decoration: none;
-}
-
-a{
-    color: inherit;
-}
-
-@media (min-width: 768px) { 
-    .logo-header{
-        visibility: visible;
-    }
-}
