@@ -1,4 +1,34 @@
 body{
     margin: 0;
+    background-image: url(img/fond.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-container{
+    background: #0a0908;
+    color: white;
+}
+
+.festival-card{
     background: #f7f7f3;
 }
+
+h1{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width: 576px) {
+    body{
+        background-image: none;
+    }
+ }
+
+ label{
+    color: black;
+ }
